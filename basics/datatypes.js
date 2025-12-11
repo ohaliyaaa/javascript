@@ -15,10 +15,21 @@ console.log(3
 // you can use mdn documentation
 // and for JS you can use ecma, tc39.es.
 
-let name = "Aliya";
-let age = 22;
-let isLoggedIn = true
+// list of primitive datatypes in javascript
+// number: 2 to the power of 53 is the range of number
+// bigInt: when the number is too large, used in trading websites
+// string: single or double quotes, preferable use double quotes
+// boolean: true to false
+// null: standalone value/empty value
+// undefined: not assigned a value yet
+// symbol: unique
 
-// datatypes
-// number 
-// string - single or double quotes
+let x = 10; // number
+let y = "10"; //string
+let z; //undefined
+
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof z);
+
+
