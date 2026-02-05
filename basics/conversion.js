@@ -78,9 +78,3 @@ console.log(typeof someNumber);
 // but the type will be string.
 
 
-
-
-
-
-
-
