@@ -1,33 +1,86 @@
-let scoreOne = 33; // declared a variable named scoreOne with a value 33
-console.log(typeof scoreOne); // the typeof scoreOne is number
+// datatype conversion
+let score1 = 33
+console.log(typeof score1); // number
 
-let scoreTwo = "33"; // declared a variable named scoreTwo with a value "33"
-console.log(typeof scoreTwo); // the typeof scoreTwo is string
+let score2 = "33abc";
+console.log(typeof score2); // string
 
-let valueInNumber = Number(scoreTwo); // declared another variable named as valueInNumber in which we converted string into number using Number and then the variable which needs to be converted.
-console.log(typeof valueInNumber); // the type in valueInNumber is number
+// if you want to perform operation on numbers u can do this
+// we converted string into number by creating a variable then putting 
+// Number and then the variable we want to convert.
+// to make sure that the value is a number and not NaN.
+// you must check the valueInNumber.
+let valueInNumber = Number (score2);
+console.log(typeof valueInNumber); // number
+console.log(valueInNumber);
 
-let scoreThree = undefined; // declared another variable as scoreThree with a value "33abc"
-let valueInNumber1 = Number(scoreThree); // // declared another variable named as valueInNumber1 in which we converted string into number using Number and then the variable which needs to be converted.
-console.log(typeof valueInNumber1); // the type in valueInNumber is number.
-console.log(valueInNumber1); // the value of valueInNumber1 is NaN.
+let score3 = null;
+console.log(score3);
+let valueInNumber1 = Number (score3);
+console.log(typeof valueInNumber1); // number
+console.log(valueInNumber1);
+//let say we have a score as null
+// when we convert this into number it will give us 0
 
-// "33" => 33
-// "33abc" => NaN
-// true => 1; false => 0;
+let score4 = undefined;
+console.log(score4);
+let valueInNumber2 = Number (score4);
+console.log(typeof valueInNumber2); // number
+console.log(valueInNumber2);
+//let say we have a score as undefined
+// when we convert this into number it will give us NaN
 
-let isLoggedIn = "aliya";
-let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn);
-console.log(typeof booleanIsLoggedIn);
+let score5 = true;
+console.log(score5);
+let valueInNumber3 = Number (score5);
+console.log(typeof valueInNumber3); // number
+console.log(valueInNumber3);
+//let say we have a score as true
+// when we convert this into number it will give us 1
+// and if we have false then it will give us 0.
 
-// 1 => true
-// 0 => false
-// "" => false
-// "aliya" => true
+let score6 = "aliya";
+console.log(score6);
+let valueInNumber4 = Number (score6);
+console.log(typeof valueInNumber4); // number
+console.log(valueInNumber4);
+// lets say we have a score as hitesh
+// when we convert this into number it will give us NaN.
 
-let someNumber = 33;
+// if u convert "33" => it will easily convert into 33.
+// if u convert "33abc" => it will give u NaN and its type is number.
+// if u convert true => it will easily convert into 1.
+// if u convert false => it will easily convert into 2.
+
+let isloggedIn = 1;
+let booleanIsloggedIn = Boolean (isloggedIn);
+console.log(isloggedIn); // this is 1
+console.log(booleanIsloggedIn); // this is true
+// if you convert 1 into boolean it will give true
+
+let isloggedIn1 = ""
+let booleanIsloggedIn1 = Boolean(isloggedIn1);
+console.log(isloggedIn1);
+console.log(booleanIsloggedIn1); 
+// if you convert "" into boolean it will give you false
+// and if you give it some name it will give you true
+
+// in boolean 1 is true and 0 is false
+// some name is true and empty string is false
+
+let someNumber = 33
 let stringNumber = String(someNumber);
 console.log(stringNumber);
-console.log(typeof stringNumber)
+console.log(someNumber);
+console.log(typeof stringNumber);
+console.log(typeof someNumber);
+// if we convert number into string it will give us the number.
+// but the type will be string.
+
+
+
+
+
+
+
 
