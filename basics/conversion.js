@@ -10,9 +10,10 @@ console.log(typeof score2); // string
 // Number and then the variable we want to convert.
 // to make sure that the value is a number and not NaN.
 // you must check the valueInNumber.
+
 let valueInNumber = Number (score2);
 console.log(typeof valueInNumber); // number
-console.log(valueInNumber);
+console.log(valueInNumber); // NaN
 
 let score3 = null;
 console.log(score3);
@@ -78,3 +79,6 @@ console.log(typeof someNumber);
 // but the type will be string.
 
 
+let SCORE = undefined;
+let valueInNums = Boolean (SCORE);
+console.log(valueInNums);
