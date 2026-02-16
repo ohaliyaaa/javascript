@@ -31,6 +31,32 @@ let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
 
+// ********************************************
+// we have two kinds of memories: stack and heap
+// stack is used with primitive data types
+// heap is used with non-primitive data types
+
+// stack copies the actual value.
+// heap copies the reference value.
+
+let myYoutubename = "aliyakhan";
+let anotherName = myYoutubename;
+anotherName = "ahmedali";
+
+console.log(anotherName);
+console.log(myYoutubename);
+
+let book = {
+  title: "Math",
+  available: true
+};
+
+let updatedBook = book;
+updatedBook.available = false;
+
+
+
+
 
 
 
