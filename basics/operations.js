@@ -36,6 +36,28 @@ let gameCounter1 = 100;
 ++gameCounter1; // pre fix
 console.log(gameCounter1);
 
+// stack and heap memories in javascript
+// we have 2 types of memories in javascript: stack and heap
+// all the primitive data types use stack memory
+// all the non-primitive data types use heap memory.
+
+let myYoutubeName = "aliyakhandotcom";
+let anotherName = myYoutubeName;
+anotherName = "saraali";
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    bank: "hbl@ybl",
+}
+
+let userTwo = userOne
+userTwo.email = "user@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
+
 
 
 
