@@ -1,4 +1,4 @@
-"use strict"; // use strict treats all jvascript code as newer version 
+"use strict"; // use strict treats all javascript code as newer version 
 
 // this is a single line comment
 /* this is a multi-line comment*/
